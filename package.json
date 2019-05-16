@@ -4,12 +4,12 @@
 	"description": "Server Testing Project",
 	"main": "server.js",
 	"scripts": {
-		"test": "jest --watch --verbose"
-	},
-	"jest": {
-		"testEnvironment": "node",
+		"test": "jest --watch --verbose",
 		"server": "nodemon index.js",
 		"start": "node index.js"
+	},
+	"jest": {
+		"testEnvironment": "node"
 	},
 	"repository": {
 		"type": "git",
